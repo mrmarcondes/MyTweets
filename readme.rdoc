@@ -1,0 +1,3 @@
+== MyTweets
+
+Projeto do curso "Developing iPad Applications for Visualization and Insight" da Carnegie Mellon University.

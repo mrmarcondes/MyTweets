@@ -22,6 +22,7 @@
 		2B61AB11159F725600F934D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B61AAF2159F725600F934D3 /* Foundation.framework */; };
 		2B61AB19159F725600F934D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B61AB17159F725600F934D3 /* InfoPlist.strings */; };
 		2B61AB1C159F725600F934D3 /* MyTweetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61AB1B159F725600F934D3 /* MyTweetsTests.m */; };
+		2B9964AD15AA2ACF00FDF062 /* readme.rdoc in Resources */ = {isa = PBXBuildFile; fileRef = 2B9964AC15AA2ACF00FDF062 /* readme.rdoc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2B61AB18159F725600F934D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B61AB1A159F725600F934D3 /* MyTweetsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTweetsTests.h; sourceTree = "<group>"; };
 		2B61AB1B159F725600F934D3 /* MyTweetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTweetsTests.m; sourceTree = "<group>"; };
+		2B9964AC15AA2ACF00FDF062 /* readme.rdoc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.rdoc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		2B61AAE1159F725500F934D3 = {
 			isa = PBXGroup;
 			children = (
+				2B9964AC15AA2ACF00FDF062 /* readme.rdoc */,
 				2B61AAF6159F725600F934D3 /* MyTweets */,
 				2B61AB14159F725600F934D3 /* MyTweetsTests */,
 				2B61AAEF159F725600F934D3 /* Frameworks */,
@@ -230,6 +233,7 @@
 			files = (
 				2B61AAFB159F725600F934D3 /* InfoPlist.strings in Resources */,
 				2B61AB04159F725600F934D3 /* MainStoryboard.storyboard in Resources */,
+				2B9964AD15AA2ACF00FDF062 /* readme.rdoc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
