@@ -7,7 +7,18 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "Tweet.h"
 
 @interface MyTweetsTests : SenTestCase
+
+-(void)testTweetInitWithContentAndLongitudeAndLatitude;
+
+-(void)testTweetInitWithContent;
+
+-(void)testTweetLatitudeValues;
+
+-(void)testTweetLongitudeValues;
+
+-(void)testTweetContentValues;
 
 @end

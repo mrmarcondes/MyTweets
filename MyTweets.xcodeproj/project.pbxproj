@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0A585315A27EF5005250D5 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A585215A27EF5005250D5 /* Tweet.m */; };
+		2B0A585415A27EF5005250D5 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A585215A27EF5005250D5 /* Tweet.m */; };
 		2B61AAF1159F725600F934D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B61AAF0159F725600F934D3 /* UIKit.framework */; };
 		2B61AAF3159F725600F934D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B61AAF2159F725600F934D3 /* Foundation.framework */; };
 		2B61AAF5159F725600F934D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B61AAF4159F725600F934D3 /* CoreGraphics.framework */; };
@@ -33,24 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0A585115A27EF5005250D5 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		2B0A585215A27EF5005250D5 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
 		2B61AAEC159F725600F934D3 /* MyTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B61AAF0159F725600F934D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B61AAF2159F725600F934D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B61AAF4159F725600F934D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2B61AAF8159F725600F934D3 /* MyTweets-Info.plist */ = {isa = PBXFileReference; path = "MyTweets-Info.plist"; sourceTree = "<group>"; };
+		2B61AAF8159F725600F934D3 /* MyTweets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTweets-Info.plist"; sourceTree = "<group>"; };
 		2B61AAFA159F725600F934D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B61AAFC159F725600F934D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B61AAFE159F725600F934D3 /* MyTweets-Prefix.pch */ = {isa = PBXFileReference; path = "MyTweets-Prefix.pch"; sourceTree = "<group>"; };
-		2B61AAFF159F725600F934D3 /* MGNAppDelegate.h */ = {isa = PBXFileReference; path = MGNAppDelegate.h; sourceTree = "<group>"; };
+		2B61AAFE159F725600F934D3 /* MyTweets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyTweets-Prefix.pch"; sourceTree = "<group>"; };
+		2B61AAFF159F725600F934D3 /* MGNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGNAppDelegate.h; sourceTree = "<group>"; };
 		2B61AB00159F725600F934D3 /* MGNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNAppDelegate.m; sourceTree = "<group>"; };
 		2B61AB03159F725600F934D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2B61AB05159F725600F934D3 /* MGNViewController.h */ = {isa = PBXFileReference; path = MGNViewController.h; sourceTree = "<group>"; };
+		2B61AB05159F725600F934D3 /* MGNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGNViewController.h; sourceTree = "<group>"; };
 		2B61AB06159F725600F934D3 /* MGNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNViewController.m; sourceTree = "<group>"; };
 		2B61AB0D159F725600F934D3 /* MyTweetsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTweetsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B61AB0E159F725600F934D3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2B61AB16159F725600F934D3 /* MyTweetsTests-Info.plist */ = {isa = PBXFileReference; path = "MyTweetsTests-Info.plist"; sourceTree = "<group>"; };
+		2B61AB16159F725600F934D3 /* MyTweetsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTweetsTests-Info.plist"; sourceTree = "<group>"; };
 		2B61AB18159F725600F934D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2B61AB1A159F725600F934D3 /* MyTweetsTests.h */ = {isa = PBXFileReference; path = MyTweetsTests.h; sourceTree = "<group>"; };
+		2B61AB1A159F725600F934D3 /* MyTweetsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTweetsTests.h; sourceTree = "<group>"; };
 		2B61AB1B159F725600F934D3 /* MyTweetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTweetsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +121,8 @@
 				2B61AB05159F725600F934D3 /* MGNViewController.h */,
 				2B61AB06159F725600F934D3 /* MGNViewController.m */,
 				2B61AAF7159F725600F934D3 /* Supporting Files */,
+				2B0A585115A27EF5005250D5 /* Tweet.h */,
+				2B0A585215A27EF5005250D5 /* Tweet.m */,
 			);
 			path = MyTweets;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 				2B61AAFD159F725600F934D3 /* main.m in Sources */,
 				2B61AB01159F725600F934D3 /* MGNAppDelegate.m in Sources */,
 				2B61AB07159F725600F934D3 /* MGNViewController.m in Sources */,
+				2B0A585315A27EF5005250D5 /* Tweet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B61AB1C159F725600F934D3 /* MyTweetsTests.m in Sources */,
+				2B0A585415A27EF5005250D5 /* Tweet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +440,7 @@
 				2B61AB21159F725600F934D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B61AB22159F725600F934D3 /* Build configuration list for PBXNativeTarget "MyTweetsTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +449,7 @@
 				2B61AB24159F725600F934D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
