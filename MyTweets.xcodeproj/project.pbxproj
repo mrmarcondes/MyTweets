@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2B0A585315A27EF5005250D5 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A585215A27EF5005250D5 /* Tweet.m */; };
 		2B0A585415A27EF5005250D5 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A585215A27EF5005250D5 /* Tweet.m */; };
+		2B525D5015B5EC4200B45C5C /* TwitterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B525D4F15B5EC4200B45C5C /* TwitterUser.m */; };
+		2B525D5A15B5F37C00B45C5C /* TwitterUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B525D5915B5F37C00B45C5C /* TwitterUserTests.m */; };
 		2B61AAF1159F725600F934D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B61AAF0159F725600F934D3 /* UIKit.framework */; };
 		2B61AAF3159F725600F934D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B61AAF2159F725600F934D3 /* Foundation.framework */; };
 		2B61AAF5159F725600F934D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B61AAF4159F725600F934D3 /* CoreGraphics.framework */; };
@@ -21,7 +23,7 @@
 		2B61AB10159F725600F934D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B61AAF0159F725600F934D3 /* UIKit.framework */; };
 		2B61AB11159F725600F934D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B61AAF2159F725600F934D3 /* Foundation.framework */; };
 		2B61AB19159F725600F934D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B61AB17159F725600F934D3 /* InfoPlist.strings */; };
-		2B61AB1C159F725600F934D3 /* MyTweetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61AB1B159F725600F934D3 /* MyTweetsTests.m */; };
+		2B61AB1C159F725600F934D3 /* TweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61AB1B159F725600F934D3 /* TweetTests.m */; };
 		2B9964AD15AA2ACF00FDF062 /* readme.rdoc in Resources */ = {isa = PBXBuildFile; fileRef = 2B9964AC15AA2ACF00FDF062 /* readme.rdoc */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,10 @@
 /* Begin PBXFileReference section */
 		2B0A585115A27EF5005250D5 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
 		2B0A585215A27EF5005250D5 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		2B525D4E15B5EC4200B45C5C /* TwitterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterUser.h; sourceTree = "<group>"; };
+		2B525D4F15B5EC4200B45C5C /* TwitterUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterUser.m; sourceTree = "<group>"; };
+		2B525D5815B5F37C00B45C5C /* TwitterUserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterUserTests.h; sourceTree = "<group>"; };
+		2B525D5915B5F37C00B45C5C /* TwitterUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterUserTests.m; sourceTree = "<group>"; };
 		2B61AAEC159F725600F934D3 /* MyTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B61AAF0159F725600F934D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B61AAF2159F725600F934D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,8 +61,8 @@
 		2B61AB0E159F725600F934D3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2B61AB16159F725600F934D3 /* MyTweetsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTweetsTests-Info.plist"; sourceTree = "<group>"; };
 		2B61AB18159F725600F934D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2B61AB1A159F725600F934D3 /* MyTweetsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTweetsTests.h; sourceTree = "<group>"; };
-		2B61AB1B159F725600F934D3 /* MyTweetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTweetsTests.m; sourceTree = "<group>"; };
+		2B61AB1A159F725600F934D3 /* TweetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetTests.h; sourceTree = "<group>"; };
+		2B61AB1B159F725600F934D3 /* TweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetTests.m; sourceTree = "<group>"; };
 		2B9964AC15AA2ACF00FDF062 /* readme.rdoc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.rdoc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +132,8 @@
 				2B61AAF7159F725600F934D3 /* Supporting Files */,
 				2B0A585115A27EF5005250D5 /* Tweet.h */,
 				2B0A585215A27EF5005250D5 /* Tweet.m */,
+				2B525D4E15B5EC4200B45C5C /* TwitterUser.h */,
+				2B525D4F15B5EC4200B45C5C /* TwitterUser.m */,
 			);
 			path = MyTweets;
 			sourceTree = "<group>";
@@ -144,9 +152,11 @@
 		2B61AB14159F725600F934D3 /* MyTweetsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2B61AB1A159F725600F934D3 /* MyTweetsTests.h */,
-				2B61AB1B159F725600F934D3 /* MyTweetsTests.m */,
+				2B61AB1A159F725600F934D3 /* TweetTests.h */,
+				2B61AB1B159F725600F934D3 /* TweetTests.m */,
 				2B61AB15159F725600F934D3 /* Supporting Files */,
+				2B525D5815B5F37C00B45C5C /* TwitterUserTests.h */,
+				2B525D5915B5F37C00B45C5C /* TwitterUserTests.m */,
 			);
 			path = MyTweetsTests;
 			sourceTree = "<group>";
@@ -272,6 +282,7 @@
 				2B61AB01159F725600F934D3 /* MGNAppDelegate.m in Sources */,
 				2B61AB07159F725600F934D3 /* MGNViewController.m in Sources */,
 				2B0A585315A27EF5005250D5 /* Tweet.m in Sources */,
+				2B525D5015B5EC4200B45C5C /* TwitterUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B61AB1C159F725600F934D3 /* MyTweetsTests.m in Sources */,
+				2B61AB1C159F725600F934D3 /* TweetTests.m in Sources */,
 				2B0A585415A27EF5005250D5 /* Tweet.m in Sources */,
+				2B525D5A15B5F37C00B45C5C /* TwitterUserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
