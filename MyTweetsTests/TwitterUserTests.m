@@ -49,7 +49,21 @@
 
 -(void)testRemoveFollowerFromTwitterUser
 {
+  NSUInteger count = 1;
   
+  TwitterUser *twitterUser = [[TwitterUser alloc] init];
+  twitterUser.name = @"twitterUser";
+  
+  TwitterUser *follower = [[TwitterUser alloc] init];
+  follower.name = @"follower";
+  [twitterUser addFollower:follower];
+  
+  follower = [[TwitterUser alloc] init];
+  follower.name = @"followerTwo";
+  [twitterUser addFollower:follower];
+
+  [twitterUser removeFollower:follower];
+  STAssertEquals(twitterUser.followers.count, count, @"Must have 1 follower");
 }
 
 -(void)testAddFollowingToTwitterUser

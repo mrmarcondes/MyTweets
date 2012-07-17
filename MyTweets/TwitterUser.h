@@ -16,4 +16,5 @@
 @property (nonatomic, strong) NSMutableArray* tweets;
 
 -(void) addFollower:(TwitterUser *) follower;
+-(void) removeFollower:(TwitterUser *) follower;
 @end

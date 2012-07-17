@@ -22,4 +22,13 @@
   }
   [_followers addObject:follower];
 }
+
+-(void) removeFollower:(TwitterUser *)follower
+{
+  [_followers removeObject:follower];
+}
+
+- (BOOL)isEqual:(TwitterUser *)anObject{
+  return _name == anObject.name;
+}
 @end
